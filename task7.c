@@ -52,10 +52,14 @@ int main(){
     int max_index[NUM];
 
     for(int i = 0; i < NUM; i++){
-        max_index[i] = 0;
         for(int j = 0; j < NUM; j++){
-            if(A[i][j] > A[i][max_index[i]]){
+            if(j == 0){
                 max_index[i] = j;
+            }
+            else{
+                if(A[i][j] > A[i][max_index[i]]){
+                    max_index[i] = j;
+                }
             }
         }
     }
