@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define NUM 8 //10
 
-int NUMain(){
+int main(){
     // Printing the General Info
     printf("Autor: ...\n");
     printf("Task: Program that reads a 10-element array of real numbers and finds the first positive number and the last positive number in the array. Then it calculates the sum of the positive elements between the first and the last positive number. If the sum is even, replace all positive numbers with 0.\n");
